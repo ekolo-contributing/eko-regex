@@ -1,0 +1,24 @@
+{
+    "name": "ekolo/eko-regex",
+    "description": "Module PHP contenant des m\u0000thodes avec des Regex",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Don de Dieu BOLENGE",
+            "email": "dondedieubolenge@gmail.com"
+        },
+        {
+            "name": "Josué Mbuyu",
+            "email": "josuembuyu94@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4":{
+            "Ekolo\\Component\\EkoRegex\\": "src/"
+        }
+    }
+}
